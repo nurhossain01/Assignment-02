@@ -8,7 +8,7 @@
   font-family: 'Roboto', sans-serif;
  }
  .section-padding{
-  padding-bottom: 100px;
+  padding-bottom: 60px;
  }
  /* Home section css */
  .container{
@@ -168,7 +168,7 @@
 }
 
 
-/* upcoming-match style sheet */
+/*part-02 upcoming-match style sheet */
 
 .playing_field{
   display: grid;
@@ -206,3 +206,48 @@
   padding-top: 5px;
   padding-bottom: 8px;
 }
+/* upcoming match aside box */
+.flex_box{
+  display: flex;
+  padding-top: 100px;
+ }
+ .match-2{
+  width: 30%;
+  text-align: center;
+ }
+ .match-2 ul{
+  list-style: none;
+  background-color: black;
+  width: 200px;
+  padding-top: 1px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+  margin-left: 0;
+ }
+ .match-2 ul li{
+  margin-top: 20px;
+ }
+ .match-2 a{
+  text-decoration: none;
+ }
+ .match01 {
+  background-color: rgb(225, 16, 16);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: 700;
+ }
+ .group02{
+  background-color: #fff;
+  padding: 5px 45px;
+  border-radius: 15px;
+  color: black;
+  font-weight: 700;
+ }
+ .blog03{
+  background-color: #fff;
+  padding: 5px 60px;
+  color: rgb(35, 21, 21);
+  font-weight: 700;
+  border-radius: 15px;
+ }
