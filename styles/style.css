@@ -83,6 +83,16 @@
   width: 30%;
   text-align: center;
  }
+ .ellipsis h4 , .ellipsis_2 h4{
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid ;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+ }
  .match_box ul{
   list-style: none;
   background-color: black;
@@ -250,7 +260,6 @@
   padding-top: 1px;
   padding-bottom: 32px;
   border-radius: 10px;
-  margin-left: 0;
  }
  .match-2 ul li{
   margin-top: 20px;
