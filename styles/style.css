@@ -204,6 +204,14 @@
   margin-right: 20px;
   padding-top: 80px;
 }
+.font_awesome a{
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+}
+.font_awesome a:hover{
+  color: red;
+}
 
 
 /*part-02 upcoming-match style sheet */
