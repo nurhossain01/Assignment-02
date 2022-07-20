@@ -22,6 +22,30 @@
   padding: 0 50px;
   margin-top: 100px;
   color: #fff;
+  position: relative;
+ }
+ .home_area::before{
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: red;
+  bottom: 10px;
+  left: 20px;
+  border-radius: 50%;
+  animation: sliding 1s ease-in-out .1s infinite alternate;
+  animation-play-state: running;  
+ }
+ /* animation */
+ @keyframes sliding{
+  0%{
+    background-color: aqua;
+    left: 0;
+  }
+  100%{
+    background-color: blue;
+    left: 500px;
+  }
  }
  .title_info{
   width: 50%;
@@ -75,10 +99,10 @@
   text-decoration: none;
  }
  .match{
-  background-color: #fff;
+  background-color: rgb(240, 8, 8);
   padding: 10px 20px;
   border-radius: 15px;
-  color: black;
+  color: #fff;
   font-weight: 700;
  }
  .group{
@@ -89,9 +113,9 @@
   font-weight: 700;
  }
  .blog{
-  background-color: red;
+  background-color: #fff;
   padding: 10px 70px;
-  color: #fff;
+  color: black;
   font-weight: 700;
   border-radius: 15px;
  }
@@ -130,6 +154,10 @@
  .icon > div{
   margin-left: 0;
   font-size: 12px;
+ }
+ .veiw{
+  text-align: center;
+  margin-top: 40px;
  }
  /* Footer section */
  footer{
@@ -231,8 +259,8 @@
   text-decoration: none;
  }
  .match01 {
-  background-color: rgb(225, 16, 16);
-  color: #fff;
+  background-color: #fff;
+  color: black;
   padding: 5px 10px;
   border-radius: 15px;
   font-weight: 700;
@@ -245,9 +273,9 @@
   font-weight: 700;
  }
  .blog03{
-  background-color: #fff;
+  background-color: rgb(229, 13, 13);
   padding: 5px 60px;
-  color: rgb(35, 21, 21);
+  color: #fff;
   font-weight: 700;
   border-radius: 15px;
  }
