@@ -21,15 +21,16 @@
   border-radius: 20px;
   padding: 0 50px;
   margin-top: 100px;
+  color: #fff;
  }
- .titke_info{
+ .title_info{
   width: 50%;
   color: #fff;
  }
- .titke_info h1{
+ .title_info h1{
   font-size: 40px;
  }
- .titke_info p{
+ .title_info p{
   font-size: 15px;
   line-height: 23px;
   padding-top: 20px;
