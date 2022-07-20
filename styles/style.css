@@ -8,7 +8,7 @@
   font-family: 'Roboto', sans-serif;
  }
  .section-padding{
-  padding-top: 100px;
+  padding-bottom: 100px;
  }
  /* Home section css */
  .container{
@@ -49,8 +49,7 @@
  .banner img{
   width: 100%;
  }
-
-
+ /* Players Section */
  .flex_box{
   display: flex;
   padding-top: 100px;
@@ -61,15 +60,39 @@
  }
  .match_box ul{
   list-style: none;
+  background-color: black;
+  width: 250px;
+  padding-top: 12px;
+  padding-bottom: 42px;
+  border-radius: 10px;
+  margin-left: 0;
  }
  .match_box ul li{
   margin-top: 40px;
  }
  .match_box a{
   text-decoration: none;
-  color: #fff;
-  background-color: red;
+ }
+ .match{
+  background-color: #fff;
   padding: 10px 20px;
+  border-radius: 15px;
+  color: black;
+  font-weight: 700;
+ }
+ .group{
+  background-color: #fff;
+  padding: 10px 55px;
+  border-radius: 15px;
+  color: black;
+  font-weight: 700;
+ }
+ .blog{
+  background-color: red;
+  padding: 10px 70px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 15px;
  }
  .padding{
   padding: 0 50px;
@@ -82,6 +105,10 @@
   width: 70%;
   margin-right: 0;
  }
+ .player_image{
+  background-color: lightcyan;
+  border-radius: 10px;
+ }
  .player_image img{
   width: 100%;
  }
@@ -92,6 +119,9 @@
   font-size: 15px;
   margin-bottom: 12px;
  }
+ .card{
+  padding: 0 0 10px 10px;
+ }
  .icon{
   display: flex;
   align-items: center;
@@ -100,3 +130,38 @@
   margin-left: 0;
   font-size: 12px;
  }
+ /* Footer section */
+ footer{
+   background-color: black;
+ }
+ .goal{
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 50px;
+ }
+ .goal_info{
+  text-align: center;
+  padding-top: 80px;
+
+ }
+ .goal_info ul{
+  list-style: none;
+ }
+ .goal_info ul li{
+  display: inline;
+  padding-right: 30px;
+ }
+ .goal_info ul li a{
+  color: #fff;
+  text-decoration: none;
+ }
+ .font_awesome{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+.font_awesome i{
+  margin-right: 20px;
+  padding-top: 80px;
+}
